@@ -1,0 +1,14 @@
+class WEBCodes:
+    # 0-100 WEB Codes
+    OK = 0
+    NOT_OK = 1
+
+
+class ErrorCode:
+    PROGRAMMING_ERROR = -1
+    INCORRECT_REQUEST_DATA = -2
+    # 100-199 User Errors
+    EMAIL_ALREADY_EXISTS = 100
+    PHONE_ALREADY_EXISTS = 101
+    LOGIN_ALREADY_EXISTS = 102
+    INVALID_EMAIL = 103
